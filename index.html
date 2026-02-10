@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <title>WebDev</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -11,9 +10,10 @@
 <body>
     <header id="inicio">
         <div class="cabezera">
-            <a href="#service" class = "links"> Service</a>
-            <a href="#inicio" class = "links">About Me</a>
-            <a href="#aboutme" class = "links"> Contact Me</a>
+            <a href="#Service" class = "links"> Service</a>
+            <a href="#planes" class="links"> Plans</a>
+            <a href="#about" class = "links">About Me</a>
+            <a href="#contactme" class = "links"> Contact Me</a>
         </div>
 
         <div class="portada">
@@ -21,15 +21,6 @@
             <h1 class="titulo_p">Welcome</h1>
         </div>
     </header>
-    <section id="servicio">
-        <div class="caja1">
-            <div class="descripcion c4">
-                <h1>The Service that I offer</h1>
-                <p> I create websites with the goal of making them look professional and providing a great user experience. By focusing on clean design, usability, and performance, I help businesses build trust 
-                    with their clients. A well-designed website not only improves how users interact with your brand, but also makes your business appear more credible and professional. </p>
-            </div>
-        </div>
-    </section>
     <section id="about">
         <div class="presentacion">
             <div class="c1">
@@ -42,10 +33,81 @@
             <div class="c3">
                 <img src="mi_foto.PNG" id="mi_foto">
             </div>
+            <div class="c4">
+                <h1>The Service That I Offer</h1>
+                <p> I create websites with the goal of making them look professional and providing a great user experience. By focusing on clean design, usability, and performance, I help businesses build trust 
+                    with their clients. A well-designed website not only improves how users interact with your brand, but also makes your business appear more credible and professional. </p>
+            </div>
         </div>
     </section>
-    <footer>
+    <hr>
+    <section id="Service">
+        <div class="steps">
+            <h1 class="t1">Website Creation Process</h1>
+            <div class="step s1">
+                <h1> Step One</h1>
+                <p>Through a dedicated chat or call, you describe how you want your website to look and work.
+                    I then translate your ideas into a structured sketch that guides every step of development. </p>
+            </div>
+            <div class="step s2">
+                <h1>Step Two</h1>
+                <p>Once the initial draft of the website is complete, I present it to you for a full review.
+                You have the opportunity to request any changes or refinements, and I implement them carefully 
+                to ensure the final result aligns perfectly with your vision.</p>
+            </div>
+            <div class="step s3">
+                <h1>Final Step</h1>
+                <p>Once the website is presented and the payment is completed, I connect the site to the hosting service you have purchased.
+                This makes your website fully live on the internet, completing the entire process from design to launch.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="planes" id="planes">
+            <h1 class=" tinsidep">Pricing Plans</h1>
+            <div class="plan basic">
+                <h2>Basic Web</h2>
+                <ul>
+                    <li>Custom website</li>
+                    <li>Until 5 sections</li>
+                    <li>Responsive Design</li>
+                    <li>Social Media Integration</li>
+                </ul>
+                <h2 class="precio">80 $</h2>
+            </div>
+            <div class="plan standard">
+                <h2>Standard Web</h2>
+                <ul>
+                    <li>Backend</li>
+                    <li>Custom website</li>
+                    <li>Unlimited sections</li>
+                    <li>Responsive Design</li>
+                    <li>Social Media Integration</li>
+                    <li>SEO</li>
+                    <li>Interactive Web</li>
+                </ul>
+                <h2 class="precio">200 $</h2>
+            </div>
+            <div class="plan premium">
+                <h2>App Web</h2>
+                <ul>
+                    <li>Backend + SQL</li>
+                    <li>Custom website</li>
+                    <li>Unlimited Sections</li>
+                    <li>Responsive Design</li>
+                    <li>Social Media Integration</li>
+                    <li>Advanced SEO</li>
+                    <li>Interactive Web</li>
+                    <li>Users Integration</li>
+                </ul>
+                <h2 class="precio">1000+ $</h2>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer id="contactme">
+        <div class="informacion">
+            
+        </div>
     </footer>
 </body>
-
 </html> 
